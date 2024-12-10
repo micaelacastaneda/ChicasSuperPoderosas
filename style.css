@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Carattere&family=Commissioner:wght@100..900&family=League+Spartan:wght@100..900&family=Marmelad&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Carattere&family=Commissioner:wght@100..900&family=League+Spartan:wght@100..900&family=Marmelad&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+body{
+    background-color: #58b2e7;
+}
+.header{
+    width: 1520px;
+    height: 720px;
+
+    background-image: url(img/chicas2.png);
+
+    margin: 0;
+    margin-top: -60px;
+
+}
+
+
+h1{
+    font-family: "Bangers", system-ui;
+    font-size: 85px;
+    font-weight: 400;
+    font-style: normal;
+
+    padding-top: 190px;
+    padding-left: 90px;
+    color: rgb(0, 0, 0);
+}
+
+.header p{
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+
+    padding-left: 90px;
+    margin-top: -50px;
+    color: rgb(0, 0, 0);
+
+}
+
+button{
+    margin-left: 90px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #f289b8;
+    border-color:beige;
+}
+
+.card{
+    background-color: #58b2e7;
+
+}
+
+.container{
+    width: 1200px;
+}
+
+.titulo{
+    color: #1a577a;
+    font-size: 50px;
+
+    margin-top: -150px;
+    margin-left: -75px;
+
+
+}
+
+.bombon{
+    width: 120px;
+    align-items: center;
+}
+
+.row p{
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+
+    color: aliceblue;
+}
+
+.row h4{
+    font-family: "Bangers", system-ui;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+
+    color: aliceblue;
+
+}
+
+.titulo2{
+    color: black;
+
+    margin-top: -10px;
+}
+
+.p2{
+
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px;
+
+    line-height: 35px;
+    color: rgb(0, 0, 0);
+
+}
+
+.burbuja{
+    border: hidden;
+
+    width: 300px;
+    margin-left: 610px;
+    margin-top: -370px;
+}
+
+.t1{
+    font-size: 35px;
+    color: #1a577a;
+
+    margin-top: -160px;
+    margin-left: -75px;
+   margin-bottom: -15px;
+
+}
+
+
+.container2{
+    background-color: rgb(166, 214, 255);
+}
+
+.cont{
+    width:840px ;
+    height: 140px;
+    background-color: #1a577a;
+
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+li{
+    color: aliceblue;
+    margin-left: 250px;
+    padding-top: 20px;
+
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.collapsible{
+    background-color: #f289b8;
+}
+
+.paper-btn{
+    background-color: #58b2e7;
+
+
+}
