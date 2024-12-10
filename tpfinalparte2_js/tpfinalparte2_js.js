@@ -8,9 +8,9 @@ let sonido = [];
 
 function preload() {
     for (let i = 0; i < 9; i++) {
-        img[i] = loadImage('libraries/img' + i + '.png');
+        img[i] = loadImage('./libraries/img' + i + '.png');
     }
-    creditos = loadStrings("libraries/creditos.txt");
+    creditos = loadStrings("./libraries/creditos.txt");
 }
 
 function setup() {
