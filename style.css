@@ -1,164 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Carattere&family=Commissioner:wght@100..900&family=League+Spartan:wght@100..900&family=Marmelad&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Carattere&family=Commissioner:wght@100..900&family=League+Spartan:wght@100..900&family=Marmelad&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
- 
-body{
-    background-color: #58b2e7;
-}
-.header{
-    width: 1520px;
-    height: 720px;
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 
-    background-image: url(img/chicas2.png);
+      body {
+        background-color: #58b2e7;
+        margin: 0;
+        font-family: "Marmelad", sans-serif;
+      }
 
-    margin: 0;
-    margin-top: -60px;
+      .header {
+        text-align: left;
+        padding: 1rem 1rem;
+        background: url('img/chicas2.png') no-repeat center/cover;
+        color: black;
+      }
 
-}
+      .header h1 {
+        font-family: "Bangers", cursive;
+        font-size: 3rem;
 
+      }
+      .t1{
+        font-family: "Bangers", cursive;
+        font-size: 45px;
+      }
 
-h1{
-    font-family: "Bangers", system-ui;
-    font-size: 85px;
-    font-weight: 400;
-    font-style: normal;
+      .header p {
+        font-size: 1.2rem;
+      }
 
-    padding-top: 190px;
-    padding-left: 90px;
-    color: rgb(0, 0, 0);
-}
+      .header button {
+        margin: 1rem 0.5rem;
+        padding: 0.8rem 1.5rem;
+        background-color: #f289b8;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      .header button a {
+        text-decoration: none;
+        color: white;
+      }
 
-.header p{
-    font-family: "Marmelad", sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    font-style: normal;
+      .container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 1rem;
+      }
 
-    padding-left: 90px;
-    margin-top: -50px;
-    color: rgb(0, 0, 0);
+      .titulo {
+        font-family: "Bangers", cursive;
+        font-size: 2rem;
+        color: #1a577a;
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
 
-}
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+      }
 
-button{
-    margin-left: 90px;
-    margin-top: 30px;
-    color: rgb(255, 255, 255);
-    background-color: #f289b8;
-    border-color:beige;
-}
+      .card {
+        flex: 1 1 calc(25% - 1rem);
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+      }
 
-.card{
-    background-color: #58b2e7;
+      .card-body {
+        padding: 1rem;
+        text-align: center;
+      }
 
-}
+      .card-title {
+        font-family: "Bangers", cursive;
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+      }
 
-.container{
-    width: 1200px;
-}
+      .card-text {
+        font-size: 0.9rem;
+        color: #333;
+      }
 
-.titulo{
-    color: #1a577a;
-    font-size: 50px;
+      .p2 {
+        line-height: 1.6;
+        margin: 1rem 0;
+        color: #333;
+      }
 
-    margin-top: -150px;
-    margin-left: -75px;
+      .burbuja {
+        display: block;
+        margin: 3rem auto;
+        margin-left: 600px;
+        margin-top: -380px;
+        width: 500px;
 
+        border-color: aliceblue;
+      }
+      .cont {
+        margin: 2rem auto;
+        padding: 1rem;
+        border-radius: 20px;
+        background-color: #1a577a;
+        color: white;
+        max-width: 800px;
+        text-align: center;
+      }
 
-}
+      .cont li {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+      }
 
-.bombon{
-    width: 120px;
-    align-items: center;
-}
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #f289b8;
+        color: white;
+        font-size: 0.9rem;
+      }
 
-.row p{
-    font-family: "Marmelad", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
+      .collapsible {
+        max-width: 600px;
+        margin: 2rem auto;
+      }
 
-    color: aliceblue;
-}
+      @media (max-width: 768px){
 
-.row h4{
-    font-family: "Bangers", system-ui;
-    font-size: 30px;
-    font-weight: 400;
-    font-style: normal;
+        .burbuja{
+            margin-left: 0px;
+            width: 200px;
+            margin-top: 10px;
+        }
 
-    color: aliceblue;
-
-}
-
-.titulo2{
-    color: black;
-
-    margin-top: -10px;
-}
-
-.p2{
-
-    font-family: "Marmelad", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    font-style: normal;
-    margin-left: 20px;
-
-    line-height: 35px;
-    color: rgb(0, 0, 0);
-
-}
-
-.burbuja{
-    border: hidden;
-
-    width: 300px;
-    margin-left: 610px;
-    margin-top: -370px;
-}
-
-.t1{
-    font-size: 35px;
-    color: #1a577a;
-
-    margin-top: -160px;
-    margin-left: -75px;
-   margin-bottom: -15px;
-
-}
-
-
-.container2{
-    background-color: rgb(166, 214, 255);
-}
-
-.cont{
-    width:840px ;
-    height: 140px;
-    background-color: #1a577a;
-
-    border-radius: 50px;
-    margin-left: 20px;
-    margin-top: 90px;
-}
-
-li{
-    color: aliceblue;
-    margin-left: 250px;
-    padding-top: 20px;
-
-    font-family: "Marmelad", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-}
-
-.collapsible{
-    background-color: #f289b8;
-}
-
-.paper-btn{
-    background-color: #58b2e7;
-
-
-}
+      }
+    
